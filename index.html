@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Máy tính BMI dễ thương</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Máy tính BMI dễ thương</h1>
+        <div class="input-container">
+            <label for="height">Chiều cao (cm):</label>
+            <input type="number" id="height" min="0">
+        </div>
+        <div class="input-container">
+            <label for="weight">Cân nặng (kg):</label>
+            <input type="number" id="weight" min="0">
+        </div>
+        <button id="calculate">Tính BMI</button>
+        <p id="result"></p>
+        <button id="getAdvice" style="display: none;">Đưa ra lời khuyên</button>
+        <p id="advice"></p>
+        <footer>
+            <p>&copy; 2024 by Phan Thi Kieu Oanh</p>
+        </footer>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
